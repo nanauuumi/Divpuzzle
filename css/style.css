@@ -3,26 +3,30 @@
 body  {
   margin: 0;
 }
-.flex {
-  display: flex;
-}
+
 .redbox {
   background: #ff0000;
   height: 100px;
   width: 400px;
 }
+
 .greenbox {
   background: #00ff1e;
   height: 250px;
   width: 150px;
+  float: left;
 }
+
 .bluebox  {
   background: #3300ff;
   height: 250px;
   width: 250px;
+  float: left;
 }
+
 .yellowbox  {
   background: #ffe600;
   height: 100px;
   width: 400px;
+  clear:left;
 }
