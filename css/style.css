@@ -2,6 +2,14 @@
 
 body  {
   margin: 0;
+  width: 400px;
+  height: 450px;
+}
+
+clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .redbox {
@@ -28,5 +36,5 @@ body  {
   background: #ffe600;
   height: 100px;
   width: 400px;
-  clear:left;
+  float: left;
 }
